@@ -5,6 +5,7 @@ class Header extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = `
+    <link rel="stylesheet" href="../css/all.min.css">
       <style>
         header {
           background-color: #fff;
