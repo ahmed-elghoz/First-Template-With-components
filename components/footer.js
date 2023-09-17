@@ -5,6 +5,7 @@ class Footer extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = `
+      <link rel="stylesheet" href="../css/all.min.css">
       <style>
         footer {
           background-color: #191919;
